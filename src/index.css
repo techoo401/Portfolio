@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "National Park", sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@import "tailwindcss"

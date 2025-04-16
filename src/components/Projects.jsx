@@ -4,27 +4,27 @@ import { motion } from 'motion/react';
 const projects = [
   {
     title: "DeltaFlix",
-    image: "/src/assets/deltaflix.png",
+    image: "/deltaflix.png",
     description: "A Netflix clone with movie browsing, trailers, and responsive UI.",
   },
   {
     title: "Chat Website",
-    image: "/src/assets/chat_website.png",
+    image: "/chat_website.png",
     description: "Real-time chat web app with rooms and messaging powered by sockets.",
   },
   {
     title: "Employee Management System",
-    image: "/src/assets/employee_management_system.png",
+    image: "/employee_management_system.png",
     description: "Admin dashboard for managing employees, leaves, and reports.",
   },
   {
     title: "Personal Dashboard",
-    image: "/src/assets/personal_dashboard.png",
+    image: "/personal_dashboard.png",
     description: "Your own productivity dashboard with widgets, notes, and tasks.",
   },
   {
     title: "TastyBites",
-    image: "/src/assets/tastybites.png",
+    image: "/tastybites.png",
     description: "A modern food ordering UI with menu browsing and cart system.",
   },
 ];

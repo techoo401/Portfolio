@@ -6,7 +6,8 @@ import {
     FaHtml5,
     FaJsSquare,
 } from 'react-icons/fa';
-import { SiTailwindcss, SiFramer } from 'react-icons/si';
+import { SiTailwindcss } from 'react-icons/si';
+import { TbBrandFramerMotion } from 'react-icons/tb';
 
 function AboutMe() {
     const paragraph = `I’m a passionate Frontend Developer who turns ideas into interactive digital experiences. With a love for smooth UI, animated transitions, and clean code, I craft modern web interfaces that feel alive. Currently diving deep into React and Tailwind, building everything from stunning portfolios to engaging web apps, one pixel at a time.`;
@@ -20,7 +21,7 @@ function AboutMe() {
         { name: 'JavaScript', icon: <FaJsSquare className="text-yellow-400" /> },
         { name: 'HTML', icon: <FaHtml5 className="text-orange-500" /> },
         { name: 'CSS', icon: <FaCss3Alt className="text-blue-400" /> },
-        { name: 'Framer Motion', icon: <SiFramer className="text-pink-400" /> },
+        { name: 'Framer Motion', icon: <TbBrandFramerMotion className="text-pink-400" /> },
     ];
 
     return (
